@@ -68,6 +68,48 @@ label[for="book-type"] {
     transition: background-color 0.3s ease;
 }
 
+#book-list {
+    margin-top: 30px;
+}
+
+.book-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-item .book-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.book-item .book-info p {
+    font-size: 16px;
+    color: #767575;
+}
+
+.delete-btn {
+    background-color: #d7091d;
+    color:#ffffff;
+    font-size: large;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #520008;
+}
+
+
 #book-form button[type="submit"]:hover {
     background-color: #a7582d;
 }
